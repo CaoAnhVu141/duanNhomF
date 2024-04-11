@@ -54,27 +54,7 @@ class AdminUsersController extends Controller
 
     public function adminUpdate(Request $request, $id)
     {
-        // $request->validate([
-        //     'chosefile' => ['required', 'image', 'max:2048'],
-        //     'name' => ['required', 'string', 'max:255'],
-        //     'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-        //     'password' => ['required', 'string', 'min:8', 'confirmed'],
-        //     'phone' => ['required', 'string', 'max:10'],
-        // ], [
-        //     'required' => ':attribute Không được để trống',
-        //     'min' => ':attribute có độ dài ít nhất :min kí tự',
-        //     'max' => ':attribute có độ dài :max kí tự',
-        //     'confirmed' => 'Xác nhận mật khẩu không trùng khớp',
-        //     'phone' => 'Nhập đúng số điện thoai',
-        // ], [
-        //     'chosefile' => 'Ảnh sản phẩm',
-        //     'name' => 'Tên người dùng',
-        //     'email' => 'Email phải đúng',
-        //     'password' => 'Mật khẩu',
-        //     'phone' => 'Số điện thoại',
-        // ]);
-
-
+        
         $file = $request->input('chosefile');
 
         //
