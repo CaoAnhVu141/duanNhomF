@@ -28,7 +28,7 @@
                 </div>
                 <div class="form-group">
                     <label for="password">Mật khẩu</label>
-                    <input class="form-control" type="password" name="password" id="password" value="{{ $users->password }}">
+                    <input class="form-control" type="password" name="password" id="password">
                 </div>
             
                 <button type="submit" name="btnupdate" class="btn btn-primary">Cập nhật</button>

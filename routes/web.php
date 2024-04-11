@@ -25,6 +25,7 @@ Route::get('/', function () {
 Route::get('/register',[AminLoginRegister::class,'showRegister'])->name('admin.register');
 Route::post('/register/run',[AminLoginRegister::class,'adminRegister'])->name('register.run');
 
+///
 Route::get('/login',[AminLoginRegister::class,'showLogin'])->name('admin.login');
 Route::post('/login',[AminLoginRegister::class,'adminLogin'])->name('loginrun');
 
