@@ -15,7 +15,8 @@ class AdminUsersController extends Controller
     //show 
     public function showAllUsers()
     {
-        $users = User::paginate(3);
+        $users = User::orderBy('created_at','desc')->paginate(3);
+
         return view('admin.users.list-users', compact('users'));
     }
 

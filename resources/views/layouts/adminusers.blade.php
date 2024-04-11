@@ -14,7 +14,7 @@
 <body>
     <div id="warpper" class="nav-fixed">
         <nav class="topnav shadow navbar-light bg-white d-flex">
-            <div class="navbar-brand"><a href="#">Nhóm F</a></div>
+            <div class="navbar-brand"><a href="{{ url('/index') }}">Nhóm F</a></div>
             <div class="nav-right ">
                 <div class="btn-group mr-auto">
                     <button type="button" class="btn dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -41,7 +41,7 @@
                 <ul id="sidebar-menu">
                    
                     <li class="nav-link">
-                        <a href="#">
+                        <a href="{{ url('/index') }}">
                             <div class="nav-link-icon d-inline-flex">
                                 <i class="far fa-folder"></i>
                             </div>
