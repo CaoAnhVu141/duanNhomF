@@ -122,7 +122,7 @@ class AminLoginRegister extends Controller
     
 
 
-     //
+     // hàm logout
      public function logOut() {
         Auth::logout();
         return redirect('login');

@@ -14,7 +14,6 @@
         </div>
         <div class="card-body">
           
-          
             <table class="table table-striped table-checkall">
                 <thead>
                     <tr>

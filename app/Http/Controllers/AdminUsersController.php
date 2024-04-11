@@ -52,6 +52,7 @@ class AdminUsersController extends Controller
         return view('admin.users.update-users', compact('users'));
     }
 
+    //hàm xử lý update
     public function adminUpdate(Request $request, $id)
     {
         
