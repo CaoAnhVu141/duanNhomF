@@ -25,10 +25,16 @@
                         <div class="form-group">
                             <label for="email"><i class="zmdi zmdi-account material-icons-name"></i></label>
                             <input type="text" name="email" id="email" placeholder="Your Email"/>
+                            @error('email')
+                            <div class="text-danger">{{ $message }}</div>
+                        @enderror
                         </div>
                         <div class="form-group">
                             <label for="password"><i class="zmdi zmdi-lock"></i></label>
                             <input type="password" name="password" id="password" placeholder="Password"/>
+                            @error('password')
+                            <div class="text-danger">{{ $message }}</div>
+                        @enderror
                         </div>
                         <div class="form-group">
                             <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
